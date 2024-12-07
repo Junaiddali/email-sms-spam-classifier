@@ -5,11 +5,12 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
 
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-nltk.download('stopwords') 
-nltk.download('corpus')
+nltk.download('punkt_tab')
+# nltk.download('punkt')
+# nltk.download('wordnet')
+# nltk.download('omw-1.4')
+# nltk.download('stopwords') 
+# nltk.download('corpus')
 
 ps = PorterStemmer()
 
