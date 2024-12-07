@@ -8,6 +8,8 @@ from nltk.stem.porter import PorterStemmer
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
+nltk.download('stopwords') 
+nltk.download('corpus')
 
 ps = PorterStemmer()
 
